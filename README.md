@@ -2,7 +2,7 @@
 
 This application was developed using MERN Stack
 Web address for deployed application: 
-	Url: 
+	Url: http://ec2-34-203-244-60.compute-1.amazonaws.com/
 
 	PORT: 9000
 Link to Github Repositories: 
