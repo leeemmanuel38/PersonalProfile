@@ -1,7 +1,7 @@
 ***This application is still in development and will likely have more modifications frequently made*** 
 
-This application was developed using MERN Stack
-Web address for deployed application: 
+* This application was developed as a MERN Stack
+* Web address for EC2 deployed application: 
 	Url: http://ec2-34-203-244-60.compute-1.amazonaws.com/
 
 	PORT: 9000
