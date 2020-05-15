@@ -29,7 +29,7 @@ export default class Login extends React.Component {
         const {email, password} = this.state;  
         // endpoint to remove blogpost data from database 
         axios({
-            url: 'http://localhost:9000/remove', 
+            url: 'http://ec2-34-203-244-60.compute-1.amazonaws.com:9000/remove', 
         })
         .then(() => {
             //console.log('Data has been removed'); 
@@ -39,7 +39,7 @@ export default class Login extends React.Component {
         });
         //authenticate user login
         axios({
-            url: 'http://localhost:9000/authentication/login',
+            url: 'http://ec2-34-203-244-60.compute-1.amazonaws.com:9000/authentication/login',
             method: 'POST',
             data: {email, password},
         })

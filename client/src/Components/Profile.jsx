@@ -48,7 +48,7 @@ export default class Profile extends Component {
          
         // send data to back end server endpoint 
         axios({
-            url: 'http://localhost:9000/api/save', 
+            url: 'http://ec2-34-203-244-60.compute-1.amazonaws.com:9000/api/save', 
             method: 'POST', 
             data: payload, 
         })
@@ -77,7 +77,7 @@ export default class Profile extends Component {
     };
 
     getData = () => {
-        axios.get('http://localhost:9000/api')
+        axios.get('http://ec2-34-203-244-60.compute-1.amazonaws.com:9000/api')
             .then((response) => {
                 const data = response.data;
                 this.setState({posts: data});
