@@ -12,30 +12,30 @@ Link to Github Repositories:
 
 
 
-Instructions on how to run this application: 
+***Instructions on how to run this application: 
 
 * the server for this application uses concurrently and nodemonNpm to run clien and server
-* to run server alone run the command: npm run start
-* to run client alone run the command: npm run client
-* for full stack application run the commmand: npm run dev 
+* to run server alone run the command: npm install, npm run start
+* to run client alone run the command: npm install, npm run client
+* for full stack application run the commmand: npm install, npm run dev 
 
-Necessary files to run application: 
+***Necessary files to run application: 
 
 * in the server/.env folder these files are required: 
-	AWSAccessKeyId=<Your access keys Id>
-	AWSSecretKey=<Your secret key>
-	bucket=<Your buck name>
+	* AWSAccessKeyId= ***YourAcessKey
+	* AWSSecretKey= ***YourSecretKey
+	* bucket= ***YourBucketName
 
-	Access=<Mongodb Atlas access link>
+	* Access= ***Mongodb Atlas access link
 	
 * in server/database.js folder:
-	connect database using link to remote database
+	* connect database using link to remote database
 
 * in order to modify the profile page you must be registered as an admin 
 
 
 
-Back-End file structure within this application 
+*** Back-End file structure within this application 
 
 *Server
 	* bin/www
