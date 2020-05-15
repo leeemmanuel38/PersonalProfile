@@ -1,0 +1,56 @@
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+.wallpaper{
+  background-image:url(https://images.all-free-download.com/images/graphiclarge/old_paper_background_hd_picture_3_169573.jpg);
+  background-size: cover;
+  height: calc(300% + 60px);
+}
+
+.container {
+    border: 2px solid #a81a10; 
+    padding: 30em;
+    width: 100%; 
+    text-align: center;
+}
+
+.flex {
+    min-height: 66vh;
+    display: flex;
+    justify-content: space-evenly;  
+    align-items: baseline;
+    flex-wrap: wrap; 
+}
+
+.box {
+    margin: 1em; 
+    padding: 0.5em;
+    min-width: 200px; 
+    border-radius: 8px;
+}
+.box.confirmed {
+    border: 1px solid #a84810; 
+    background: #ecce44; 
+}
+.box.recovered {
+    border: 1px solid #559601; 
+    background: #95e711; 
+}
+.box.deaths {
+    border: 1px solid #e21204; 
+    background: #e94d27; 
+}
+
+
+@media screen and (min-width: 900px){
+    .flex {
+        flex-wrap: nowrap;
+    }
+    .box {
+        max-width: 300px;
+        line-height: 1.5;
+        font-size: 2em;
+    }
+}

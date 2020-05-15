@@ -1,0 +1,79 @@
+* {
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box; 
+}
+
+h1, p {
+  font-family: Lato;
+}
+body { margin: 0 }
+
+
+.float-right {
+align-content:  right;
+}
+
+body{
+margin: 0;
+}
+
+.centered{
+
+height: 200px;
+}
+
+
+.form-input {
+  margin: 1em;
+}
+.wallpaper{
+  background-image:url(https://unsplash.com/photos/5Ft4NWTmeJE/download);
+  background-size: cover;
+  height: calc(300% + 60px);
+}
+
+.transparentForm{
+  position: center;  
+  background: rgba(0,0,0, 0.3);
+  padding: 10px; 
+}
+
+.loginError{
+  position: absolute;
+  right: 15%; 
+}
+.registerError{
+  position: absolute;
+  right: 20%; 
+}
+.contactUs {
+  margin: 0; 
+  padding: 0 0 20px; 
+  font-weight:  bold;
+  color:black
+}
+
+.userPicture{
+  left: 10%; 
+  top: 19%;
+  bottom: 33%;
+  position: absolute;
+  width: 30em;
+  height: 25em; 
+  border: 7px solid #b8251a;   
+}
+.upload{
+  left: 10%; 
+  bottom: 15%;
+  position: absolute;    
+}
+
+.editableEnvironment{
+ left: 40%; 
+ top: 20%;
+ position: absolute; 
+ width: 30%;
+}
+
+
