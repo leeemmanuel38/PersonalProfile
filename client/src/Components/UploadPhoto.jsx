@@ -29,7 +29,7 @@ export default class UploadPhoto extends Component {
     let fileName = fileParts[0];
     let fileType = fileParts[1];
     //console.log("uploading...");
-    axios.post("sign_s3",{
+    axios.post("http://ec2-34-203-244-60.compute-1.amazonaws.com:9000/sign_s3",{
       fileName : fileName,
       fileType : fileType
     })
