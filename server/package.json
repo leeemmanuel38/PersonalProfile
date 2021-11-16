@@ -9,7 +9,7 @@
     "dev": "concurrently -n 'server,client' -c 'red,green' \"nodemon app.js\" \"npm run client\""
   },
   "dependencies": {
-    "aws-sdk": "^2.676.0",
+    "aws-sdk": "^2.814.0",
     "axios": "^0.19.2",
     "bcryptjs": "^2.4.3",
     "concurrently": "^5.2.0",
